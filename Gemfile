@@ -6,6 +6,7 @@ gem 'rails', '4.2.10'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 # for Heroku deployment - as described in Ap. A of ELLS book
+gem 'pg'
 
 group :development, :test do
 #  gem 'sqlite3'
@@ -15,7 +16,6 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails', '3.7.2'
   gem 'ZenTest', '4.11.0'
-  gem 'pg'
 end
 
 group :test do
